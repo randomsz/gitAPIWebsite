@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="script/git.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="home">
+        <div class="image">
+            <img id="userImage" src="" alt="profile image" />
+        </div>
+        <div class="info">
+            <h1 id="name"></h1>
+            <p id="bio"></p>
+            <div class="logo-text">
+                <p id="git">https://github</p>
+            </div>
+            <div class="logo-text">
+                <p id="location">Orlando</p>
+            </div>
+            <div class="logo-text">
+                <p id="twitter">https://twitter</p>
+            </div>
+            <div id="page">
+                <label>Repositories per page:</label>
+                <input
+                  type="number"
+                  id="perPage"
+                  min="1"
+                  value="7"
+                  onchange="updatePerPage(this.value)" />
+              </div>
+        </div>
+    </div>
+
+    <div class="repos">
+        <div id="content"></div>
+    </div>
+
+    <div id="btnDiv">
+        <button onclick="onClickFirst()" class="btn" id="firstBtn"> << </button>
+        <button onclick="onClickPrev()" class="btn" id="prevBtn"> < </button>
+        <span id="currentPage">1</span>
+        <button onclick="onClickNext()" class="btn" id="nextBtn"> > </button>
+        <button onclick="onClickLast()" class="btn" id="lastBtn"> >> </button>
+    </div>
+</body>
+</html>

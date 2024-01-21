@@ -1,0 +1,224 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-family: "Poppins", sans-serif; */
+    /* color: white; */
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+
+  body{
+    /* background-color: rgb(136, 176, 240); */
+    
+  }
+ 
+.home {
+    width: 90%;
+    /* height: 300px; */
+    margin: auto;
+    margin-top: 25px;
+    /* border: 3px solid rgb(158, 230, 14); */
+    /* padding-bottom: 150px; */
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(72, 133, 230); */
+    background-color: #eae9e9;
+    border-radius: 10px;
+}
+
+.repos{
+    width: 90%;
+    /* height: 300px; */
+    margin: auto;
+    margin-top: 20px;
+    /* border: 3px solid rgb(158, 230, 14); */
+    /* padding-bottom: 150px; */
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(72, 133, 230); */
+    /* background-color: #f4f4f4; */
+    background-color: #eae9e9;
+    border-radius: 10px;
+}
+
+#content{
+
+    width: 100%;    
+}
+
+.repo {
+    margin:50px 100px;
+    padding:15px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(85, 85, 94); */
+    background-color: #fff;
+    /* border: 3px solid rgb(71, 69, 71); */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+
+  .repo:hover {
+    transform: scale(1.05);
+  }
+
+
+.name {
+    font-size: 30px;
+    margin: 10px 10px ;
+    padding: 10px 15px 0px;
+}
+
+.desc {
+    /* font-size: 30px; */
+    margin: 10px 10px ;
+    padding: 10px 15px;
+    color: #666;
+}
+
+.lang {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.langElement {
+    /* background-color: rgb(8, 139, 221); */
+    background-color: #b3e0ff;
+    box-shadow: none;
+    margin: 3px 10px;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+#btnDiv {
+    width: 90%;
+    /* height: 300px; */
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: 3px solid rgb(158, 230, 14); */
+    /* padding-bottom: 150px; */
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(72, 133, 230); */
+    background-color: #eae9e9;
+    border-radius: 10px;
+  }
+
+  .btn {
+    /* background-color: rgb(8, 139, 221); */
+    /* box-shadow: none; */
+    /* margin: 0px 10px;
+    padding: 3px 10px; */
+    /* border-radius: 5px; */
+    color: #367aba;
+    margin: 0 2px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f0f0f0;
+}
+
+#userImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.image {
+/* border: 3px solid rgb(108, 50, 147); */
+    padding: 30px 50px;
+}
+
+.info {
+    /* border: 3px solid rgb(215, 12, 127); */
+    width: 600px;
+    display: inline-block;
+  
+    /* float: left; */
+  }
+  
+  .info h1 {
+    /* color: white; */
+    color: #333;
+    padding: 10px;
+    text-align: justify;
+    }
+
+  .info p {
+    color: #666;
+    /* padding: 10px; */
+    line-height: 40px;
+    font-size: 15px;
+    text-align: justify;
+  }
+/*   
+  .info p a {
+    text-decoration: none;
+    color: rgb(39, 225, 119);
+  } */
+
+  .logo-text img {
+    /* height: 30px; */
+    width: 40px;
+    /* background-color: yellow; */
+  }
+
+  .logo-text {
+    display: flex;
+  }
+
+  .logo-text p {
+    /* background-color: blue; */
+    padding: 0%;
+  }
+
+  #page {
+    
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  #page label {
+    color: #666;
+    margin-right: 10px;
+  }
+
+  #page input {
+    width: 50px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  #currentPage {
+    /* background-color: red;
+    width: 25px;
+    text-align: center;
+    margin: 0px 20px; */
+    color: #367aba;
+    margin: 0 5px;
+    padding: 8px 12px;
+  }
+
+  #firstBtn,#prevBtn,#nextBtn,#lastBtn {
+    visibility: hidden;
+  }
