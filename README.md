@@ -14,3 +14,6 @@
 2. Open `/script/git.js`.
 3. Change USERNAME to the Github username whose profile is to be displayed.
 4. Run index.html in your browser.
+
+## Link to hosted Web App
+https://randomsz.github.io/gitAPIWebsite/
